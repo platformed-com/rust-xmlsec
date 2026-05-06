@@ -2,6 +2,11 @@
 
 This library aims at wrapping xmlsec1 and being interoperable with [rust-libxml](https://github.com/KWARC/rust-libxml), while attemting to be as correct and comfortable to use as possible.
 
+## Platformed Note
+
+- A fork of [voipir/rust-xmlsec](https://github.com/voipir/rust-xmlsec).
+- Pulled in `db-windows` from [Diggsey/rust-xmlsec](https://github.com/Diggsey/rust-xmlsec), renamed to `platformed`.
+
 ## Things needing improvement
 
 - Better input sanitization of string arguments. Currently they get blindly turned into a FFI version and passed through to xmlsec.
