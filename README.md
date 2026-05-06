@@ -6,6 +6,7 @@ This library aims at wrapping xmlsec1 and being interoperable with [rust-libxml]
 
 - A fork of [voipir/rust-xmlsec](https://github.com/voipir/rust-xmlsec).
 - Pulled in `db-windows` from [Diggsey/rust-xmlsec](https://github.com/Diggsey/rust-xmlsec), renamed to `platformed`.
+- Bumped bindgen to 0.72 to support Clang 22.
 
 ## Things needing improvement
 
